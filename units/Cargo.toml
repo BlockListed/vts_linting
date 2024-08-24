@@ -1,0 +1,13 @@
+[package]
+name = "vts_units"
+version = "0.1.0"
+edition = "2021"
+
+[build-dependencies]
+codegen = { version = "0.1.0", path = "../codegen" }
+prettyplease = "0.2.20"
+syn = "2.0.75"
+
+[dependencies]
+thiserror = "1.0.63"
+vts_parsing = "1.0.2"

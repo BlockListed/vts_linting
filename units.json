@@ -1,0 +1,660 @@
+[
+  {
+    "name": "B-11 Bomber",
+    "id": "ABomberAI",
+    "rust_identifier_name": "B_11_Bomber",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "AV-42C",
+    "id": "AV-42CAI",
+    "rust_identifier_name": "AV_42C",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "E-4 Overlord",
+    "id": "E-4",
+    "rust_identifier_name": "E_4_Overlord",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "EF-24G Mischief",
+    "id": "EF-24 AI",
+    "rust_identifier_name": "EF_24G_Mischief",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "F-45A",
+    "id": "F-45A AI",
+    "rust_identifier_name": "F_45A",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "F/A-26B",
+    "id": "FA-26B AI",
+    "rust_identifier_name": "F_A_26B",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "KC-49",
+    "id": "KC-49",
+    "rust_identifier_name": "KC_49",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "MQ-31 UARV",
+    "id": "MQ-31",
+    "rust_identifier_name": "MQ_31_UARV",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "T-55 Tyro",
+    "id": "T-55 AI",
+    "rust_identifier_name": "T_55_Tyro",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Decoy Radar Transmitter",
+    "id": "aDecoyRadarTransmitter",
+    "rust_identifier_name": "Decoy_Radar_Transmitter",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "GECM Truck",
+    "id": "AJammerTruck",
+    "rust_identifier_name": "GECM_Truck",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Boxer IFV",
+    "id": "AlliedIFV",
+    "rust_identifier_name": "Boxer_IFV",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "M1 Tank",
+    "id": "alliedMBT1",
+    "rust_identifier_name": "M1_Tank",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Infantry",
+    "id": "AlliedSoldier",
+    "rust_identifier_name": "Infantry",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Infantry MANPADS",
+    "id": "AlliedSoldierMANPAD",
+    "rust_identifier_name": "Infantry_MANPADS",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Logistics Truck",
+    "id": "ALogisticTruck",
+    "rust_identifier_name": "Logistics_Truck",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Mobile Missile Warning Truck",
+    "id": "AMWSTruck Variant",
+    "rust_identifier_name": "Mobile_Missile_Warning_Truck",
+    "faction": "Allied",
+    "unit_type": "MissileWarning"
+  },
+  {
+    "name": "Boxer APC",
+    "id": "APC",
+    "rust_identifier_name": "Boxer_APC",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Rocket Artillery Truck",
+    "id": "ARocketTruck",
+    "rust_identifier_name": "Rocket_Artillery_Truck",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "C-RAM Truck",
+    "id": "PhallanxTruck",
+    "rust_identifier_name": "C_RAM_Truck",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "SLAM Truck",
+    "id": "SLAIM120Truck",
+    "rust_identifier_name": "SLAM_Truck",
+    "faction": "Allied",
+    "unit_type": "SAMLauncher"
+  },
+  {
+    "name": "SRAD Truck",
+    "id": "SRADTruck",
+    "rust_identifier_name": "SRAD_Truck",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Watchman Truck",
+    "id": "WatchmanTruck",
+    "rust_identifier_name": "Watchman_Truck",
+    "faction": "Allied",
+    "unit_type": "SAMRadar"
+  },
+  {
+    "name": "IRMD Launcher",
+    "id": "aIRMDlauncher",
+    "rust_identifier_name": "IRMD_Launcher",
+    "faction": "Allied",
+    "unit_type": "IRMD"
+  },
+  {
+    "name": "SAM Launcher B",
+    "id": "AlliedBackstopSAM",
+    "rust_identifier_name": "SAM_Launcher_B",
+    "faction": "Allied",
+    "unit_type": "SAMLauncher"
+  },
+  {
+    "name": "SAM S/A Radar",
+    "id": "AlliedEWRadar",
+    "rust_identifier_name": "SAM_S_A_Radar",
+    "faction": "Allied",
+    "unit_type": "SAMRadar"
+  },
+  {
+    "name": "Backstop Radar",
+    "id": "BSTOPRadar",
+    "rust_identifier_name": "Backstop_Radar",
+    "faction": "Allied",
+    "unit_type": "SAMRadar"
+  },
+  {
+    "name": "Bunker A",
+    "id": "bunker2",
+    "rust_identifier_name": "Bunker_A",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Bunker B",
+    "id": "bunkerHillsideAllied",
+    "rust_identifier_name": "Bunker_B",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Fire Ctrl Radar P",
+    "id": "PatRadarTrailer",
+    "rust_identifier_name": "Fire_Ctrl_Radar_P",
+    "faction": "Allied",
+    "unit_type": "SAMRadar"
+  },
+  {
+    "name": "SAM Launcher P",
+    "id": "PatriotLauncher",
+    "rust_identifier_name": "SAM_Launcher_P",
+    "faction": "Allied",
+    "unit_type": "SAMLauncher"
+  },
+  {
+    "name": "CIWS Turret",
+    "id": "staticCIWS",
+    "rust_identifier_name": "CIWS_Turret",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Decoy Launcher",
+    "id": "staticDecoyLauncherA",
+    "rust_identifier_name": "Decoy_Launcher",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Assault Carrier",
+    "id": "AlliedAAShip",
+    "rust_identifier_name": "Assault_Carrier",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Aircraft Carrier",
+    "id": "AlliedCarrier",
+    "rust_identifier_name": "Aircraft_Carrier",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Cruiser",
+    "id": "EscortCruiser",
+    "rust_identifier_name": "Cruiser",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Storage Tent A",
+    "id": "alliedCylinderTent",
+    "rust_identifier_name": "Storage_Tent_A",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Early Warning Radar",
+    "id": "ewRadarSphere",
+    "rust_identifier_name": "Early_Warning_Radar",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Factory A",
+    "id": "factory1",
+    "rust_identifier_name": "Factory_A",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Missile Silo",
+    "id": "missileSilo_a",
+    "rust_identifier_name": "Missile_Silo",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Rearm/Refuel Point A",
+    "id": "AlliedRearmRefuelPoint",
+    "rust_identifier_name": "Rearm_Refuel_Point_A",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Rearm/Refuel Point B",
+    "id": "AlliedRearmRefuelPointB",
+    "rust_identifier_name": "Rearm_Refuel_Point_B",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Rearm/Refuel Point C",
+    "id": "AlliedRearmRefuelPointC",
+    "rust_identifier_name": "Rearm_Refuel_Point_C",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "Rearm/Refuel Point D",
+    "id": "AlliedRearmRefuelPointD",
+    "rust_identifier_name": "Rearm_Refuel_Point_D",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "MP Spawn",
+    "id": "MultiplayerSpawn",
+    "rust_identifier_name": "MP_Spawn",
+    "faction": "Allied",
+    "unit_type": null
+  },
+  {
+    "name": "AEW-50 Bulwark",
+    "id": "AEW-50",
+    "rust_identifier_name": "AEW_50_Bulwark",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Manta UCAV",
+    "id": "AIUCAV",
+    "rust_identifier_name": "Manta_UCAV",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "ASF-30",
+    "id": "ASF-30",
+    "rust_identifier_name": "ASF_30",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "ASF-33",
+    "id": "ASF-33",
+    "rust_identifier_name": "ASF_33",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "ASF-58",
+    "id": "ASF-58",
+    "rust_identifier_name": "ASF_58",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "HB-106 Bomber",
+    "id": "EBomberAI",
+    "rust_identifier_name": "HB_106_Bomber",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "GAV-25 Bullshark",
+    "id": "GAV-25",
+    "rust_identifier_name": "GAV_25_Bullshark",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy T-55 Tyro",
+    "id": "T-55 AI-E",
+    "rust_identifier_name": "Enemy_T_55_Tyro",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "MPA-155",
+    "id": "Artillery",
+    "rust_identifier_name": "MPA_155",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy Decoy Radar Transmitter",
+    "id": "eDecoyRadarTransmitter",
+    "rust_identifier_name": "Enemy_Decoy_Radar_Transmitter",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy GECM Truck",
+    "id": "EJammerTruck",
+    "rust_identifier_name": "Enemy_GECM_Truck",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy Logistics Truck",
+    "id": "ELogisticsTruck",
+    "rust_identifier_name": "Enemy_Logistics_Truck",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy Mobile Missile Warning Truck",
+    "id": "EMWSTruck",
+    "rust_identifier_name": "Enemy_Mobile_Missile_Warning_Truck",
+    "faction": "Enemy",
+    "unit_type": "MissileWarning"
+  },
+  {
+    "name": "APC",
+    "id": "EnemyAPC",
+    "rust_identifier_name": "APC",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "MBT2-E Tank",
+    "id": "enemyMBT1",
+    "rust_identifier_name": "MBT2_E_Tank",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy Infantry",
+    "id": "EnemySoldier",
+    "rust_identifier_name": "Enemy_Infantry",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy Infantry MANPADS",
+    "id": "EnemySoldierMANPAD",
+    "rust_identifier_name": "Enemy_Infantry_MANPADS",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy Rocket Artillery Truck",
+    "id": "ERocketTruck",
+    "rust_identifier_name": "Enemy_Rocket_Artillery_Truck",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "IFV-1",
+    "id": "IFV-1",
+    "rust_identifier_name": "IFV_1",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "IRAPC",
+    "id": "IRAPC",
+    "rust_identifier_name": "IRAPC",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "MAD-4 Launcher",
+    "id": "MAD-4Launcher",
+    "rust_identifier_name": "MAD_4_Launcher",
+    "faction": "Enemy",
+    "unit_type": "SAMLauncher"
+  },
+  {
+    "name": "MAD-4 Radar",
+    "id": "MAD-4Radar",
+    "rust_identifier_name": "MAD_4_Radar",
+    "faction": "Enemy",
+    "unit_type": "SAMRadar"
+  },
+  {
+    "name": "SAAW",
+    "id": "SAAW",
+    "rust_identifier_name": "SAAW",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "SL-MRM Launcher",
+    "id": "slmrmLauncher",
+    "rust_identifier_name": "SL_MRM_Launcher",
+    "faction": "Enemy",
+    "unit_type": "SAMLauncher"
+  },
+  {
+    "name": "SL-MRM Radar",
+    "id": "slmrmRadar",
+    "rust_identifier_name": "SL_MRM_Radar",
+    "faction": "Enemy",
+    "unit_type": "SAMRadar"
+  },
+  {
+    "name": "Enemy Bunker A",
+    "id": "bunker1",
+    "rust_identifier_name": "Enemy_Bunker_A",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy Bunker B",
+    "id": "bunkerHillside",
+    "rust_identifier_name": "Enemy_Bunker_B",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy IRMD Launcher",
+    "id": "eIRMDlauncher",
+    "rust_identifier_name": "Enemy_IRMD_Launcher",
+    "faction": "Enemy",
+    "unit_type": "IRMD"
+  },
+  {
+    "name": "SAM Launcher",
+    "id": "SamBattery1",
+    "rust_identifier_name": "SAM_Launcher",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "SAM FireCtrl Radar",
+    "id": "SamFCR",
+    "rust_identifier_name": "SAM_FireCtrl_Radar",
+    "faction": "Enemy",
+    "unit_type": "SAMRadar"
+  },
+  {
+    "name": "Enemy SAM S/A Radar",
+    "id": "SamFCR2",
+    "rust_identifier_name": "Enemy_SAM_S_A_Radar",
+    "faction": "Enemy",
+    "unit_type": "SAMRadar"
+  },
+  {
+    "name": "Z20x2 Anti-Air Artillery",
+    "id": "staticAAA-20x2",
+    "rust_identifier_name": "Z20x2_Anti_Air_Artillery",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy Decoy Launcher",
+    "id": "staticDecoyLauncher",
+    "rust_identifier_name": "Enemy_Decoy_Launcher",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy Storage Tent A",
+    "id": "cylinderTent",
+    "rust_identifier_name": "Enemy_Storage_Tent_A",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy Early Warning Radar",
+    "id": "ewRadarPyramid",
+    "rust_identifier_name": "Enemy_Early_Warning_Radar",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy Factory A",
+    "id": "factory1e",
+    "rust_identifier_name": "Enemy_Factory_A",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy Missile Silo",
+    "id": "missileSilo_e",
+    "rust_identifier_name": "Enemy_Missile_Silo",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Drone Carrier",
+    "id": "DroneCarrier",
+    "rust_identifier_name": "Drone_Carrier",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Gun Boat",
+    "id": "DroneGunBoat",
+    "rust_identifier_name": "Gun_Boat",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Rocket Boat",
+    "id": "DroneGunBoatRocket",
+    "rust_identifier_name": "Rocket_Boat",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "DMS Cruiser",
+    "id": "DroneMissileCruiser",
+    "rust_identifier_name": "DMS_Cruiser",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "NFP Carrier",
+    "id": "EnemyCarrier",
+    "rust_identifier_name": "NFP_Carrier",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "NMSS Cruiser",
+    "id": "ESuperMissileCruiser",
+    "rust_identifier_name": "NMSS_Cruiser",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Mine Boat",
+    "id": "MineBoat",
+    "rust_identifier_name": "Mine_Boat",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy Rearm/Refuel Point A",
+    "id": "EnemyRearmRefuelPoint",
+    "rust_identifier_name": "Enemy_Rearm_Refuel_Point_A",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy Rearm/Refuel Point B",
+    "id": "EnemyRearmRefuelPointB",
+    "rust_identifier_name": "Enemy_Rearm_Refuel_Point_B",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy Rearm/Refuel Point C",
+    "id": "EnemyRearmRefuelPointC",
+    "rust_identifier_name": "Enemy_Rearm_Refuel_Point_C",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy Rearm/Refuel Point D",
+    "id": "EnemyRearmRefuelPointD",
+    "rust_identifier_name": "Enemy_Rearm_Refuel_Point_D",
+    "faction": "Enemy",
+    "unit_type": null
+  },
+  {
+    "name": "Enemy MP Spawn",
+    "id": "MultiplayerSpawnEnemy",
+    "rust_identifier_name": "Enemy_MP_Spawn",
+    "faction": "Enemy",
+    "unit_type": null
+  }
+]

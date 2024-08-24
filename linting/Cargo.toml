@@ -1,0 +1,10 @@
+[package]
+name = "vts_linting"
+version = "0.1.0"
+edition = "2021"
+license = "agpl-3.0-or-later"
+
+[dependencies]
+thiserror = "1.0.63"
+vts_parsing = { version = "1.0.2", features = ["glam"] }
+vts_units = { version = "0.1.0", path = "../units" }
