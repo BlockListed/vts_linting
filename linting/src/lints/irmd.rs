@@ -35,12 +35,9 @@ pub fn irmd_linked_to_by_mw() -> impl Lint {
         })?;
 
         if !has_mw {
-            return Ok(vec![(
-                unit.name().to_string(),
-                unit.id(),
-                "IRMD has no MW linking to it!".to_string(),
-            )
-                .into()]);
+            return Ok(vec![
+                (unit, "IRMD has no MW linking to it!".to_string()).into()
+            ]);
         }
 
         Ok(vec![])

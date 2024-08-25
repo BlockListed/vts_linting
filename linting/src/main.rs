@@ -16,7 +16,8 @@ fn main() {
     let mut lints = Lints::default();
     lints
         .add_lint(lints::mw::mw_has_radar())
-        .add_lint(lints::irmd::irmd_linked_to_by_mw());
+        .add_lint(lints::irmd::irmd_linked_to_by_mw())
+        .add_lint(lints::sam_launcher::sam_launcher_attached_to_radar());
 
     for w in lints.lint(&scenario).unwrap() {
         println!("Lint Warning: {:?}", w);

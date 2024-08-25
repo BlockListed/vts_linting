@@ -21,33 +21,20 @@ pub fn mw_has_radar() -> impl Lint {
         };
 
         if radars.is_empty() {
-            return Ok(vec![(
-                unit.name().to_string(),
-                unit.id(),
-                "MW has no Radars!".to_string(),
-            )
-                .into()]);
+            return Ok(vec![(unit, "MW has no Radars!".to_string()).into()]);
         }
 
         Ok(radars
             .iter()
             .filter_map(|u| {
                 let Some(radar) = scenario.units().get(u) else {
-                    return Some(
-                        (
-                            unit.name().to_string(),
-                            unit.id(),
-                            format!("MW radar {} does not exist!", u),
-                        )
-                            .into(),
-                    );
+                    return Some((unit, format!("MW radar {} does not exist!", u)).into());
                 };
 
                 if !radar.unit_type().is_some_and(|t| t == UnitType::SAMRadar) {
                     return Some(
                         (
-                            unit.name().to_string(),
-                            unit.id(),
+                            unit,
                             format!(
                                 "MW radar {} (id:{}) is not a radar.",
                                 radar.name(),

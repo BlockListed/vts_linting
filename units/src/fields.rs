@@ -123,7 +123,10 @@ fn parse_sam_launcher(unit: &UnitRef) -> Result<Fields, AccessFieldsError> {
 
     let radars = get_instance_id_list_field(unit, "radarUnits")?;
 
-    Ok(Fields::SAMLauncher { engage_enemies, radars })
+    Ok(Fields::SAMLauncher {
+        engage_enemies,
+        radars,
+    })
 }
 
 fn parse_missile_warning(unit: &UnitRef) -> Result<Fields, AccessFieldsError> {
@@ -137,7 +140,14 @@ fn parse_missile_warning(unit: &UnitRef) -> Result<Fields, AccessFieldsError> {
     let missile_defenses = get_instance_id_list_field(unit, "defenseUnits")?;
     let jammers = get_instance_id_list_field(unit, "jammerUnits")?;
 
-    Ok(Fields::MissileWarning { engage_enemies, radars, decoys, missile_defenses, jammers, units_to_defend })
+    Ok(Fields::MissileWarning {
+        engage_enemies,
+        radars,
+        decoys,
+        missile_defenses,
+        jammers,
+        units_to_defend,
+    })
 }
 
 fn parse_irmd(unit: &UnitRef) -> Result<Fields, AccessFieldsError> {

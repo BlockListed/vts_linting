@@ -5,6 +5,7 @@ use vts_units::{Scenario, UnitRef};
 
 pub mod irmd;
 pub mod mw;
+pub mod sam_launcher;
 
 #[derive(Debug)]
 pub struct Warning {
@@ -13,12 +14,12 @@ pub struct Warning {
     pub description: String,
 }
 
-impl From<(String, i64, String)> for Warning {
-    fn from((unit_name, unit_id, description): (String, i64, String)) -> Self {
+impl<'a, S: Into<String>> From<(&'a UnitRef<'a>, S)> for Warning {
+    fn from((unit, description): (&'a UnitRef<'a>, S)) -> Self {
         Warning {
-            unit_name,
-            unit_id,
-            description,
+            unit_name: unit.name().to_string(),
+            unit_id: unit.id(),
+            description: description.into(),
         }
     }
 }
